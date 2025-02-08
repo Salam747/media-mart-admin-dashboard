@@ -13,7 +13,7 @@ export default function LoginPage() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
-    if (email === "salamabsul466@gmail.com" && password === "123456") {
+    if (email === "afsheen04@gmail.com" && password === "123456") {
       setIsAuthenticated(true)
       setError("")
     } else {
